@@ -11,7 +11,12 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        body: ["Inter", "sans-serif"],
+        heading: ["Inter", "sans-serif"],
+      },
+    },
   },
   plugins: [require('@tailwindcss/typography'), require('@tailwindcss/line-clamp')],
 }
