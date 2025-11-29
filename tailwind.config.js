@@ -8,6 +8,7 @@ module.exports = {
     "./themes/digitalgarden/content/**/*.html",
     "./themes/digitalgarden/layouts/**/*.html",
     "./themes/digitalgarden/assets/**/*.js",
+    "./themes/digitalgarden/**/*.{html,md}",
   ],
   darkMode: 'class',
   theme: {
